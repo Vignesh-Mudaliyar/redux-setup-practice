@@ -5,7 +5,7 @@ import Register from './Pages/RegistrationPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useSelector } from "react-redux";
 import Login from "./Pages/Login";
-import Dashboard  from "./Pages/Dashboard";
+import Dashboard  from "./Pages/Dashboard/Dashboard";
 
 function App() {
   const {isLogin} = useSelector(state => state.auth);
